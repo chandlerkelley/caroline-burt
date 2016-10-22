@@ -2,15 +2,27 @@
 	cursor: url(images/cursor.ico), pointer;
 }*/
 
+@font-face {
+    font-family: 'Barbie';
+    src:url('fonts/Barbie/Barbie-MediumItalic.ttf.woff') format('woff'),
+        url('fonts/Barbie/Barbie-MediumItalic.ttf.svg#Barbie-MediumItalic') format('svg'),
+        url('fonts/Barbie/Barbie-MediumItalic.ttf.eot'),
+        url('fonts/Barbie/Barbie-MediumItalic.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 img {
 	display: block;
 }
 
-h1 {
-	position: absolute;
-	font-family: "Helvetica Neue", sans-serif;
-	font-size: 30px;
-	display: none;
+h2 {
+	font-family: "Barbie", serif;
+	font-size: 6VH;
+}
+
+h3 {
+	font-size: 2.5vh;
 }
 
 .page-container {
@@ -36,6 +48,13 @@ h1 {
 	height: 30vh;
 }
 
+.label {
+	position: absolute;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+}
+
 .floor {
 	display: flex;
 	justify-content: center;
@@ -49,8 +68,8 @@ h1 {
 	justify-content: center;
 }
 
-.room:hover > h1 {
-	display: inline-block;
+.room:hover > .label {
+	display: flex;
 }
 
 .room:hover > .image {
@@ -65,9 +84,9 @@ h1 {
 	opacity: 0.55;
 }*/
 
-.roof:hover > h1 {
+.roof:hover > .label {
 	margin-top: 5vh;
-	display: inline-block;
+	display: flex;
 }
 
 .roof:hover > .roof-image {
