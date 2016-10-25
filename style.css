@@ -30,7 +30,7 @@ h3 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: pink;
+	background-color: #fff;
 }
 
 .dollhouse {
@@ -46,7 +46,7 @@ h3 {
 }
 
 .roof-image {
-	height: 30vh;
+	height: 34.5vh;
 }
 
 .label {
@@ -84,11 +84,11 @@ h3 {
 }
 
 .image {
-	height: 17.5vh;
+	height: 20vh;
 }
 
 .roof:hover > .label {
-	margin-top: 5vh;
+	margin-top: 7vh;
 	display: flex;
 }
 
