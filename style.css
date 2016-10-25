@@ -17,20 +17,28 @@ img {
 }
 
 h2 {
-	font-family: "Barbie", serif;
-	font-size: 6VH;
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: 200;
+	font-size: 5.5VH;
+	/*color: #fff;*/
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.2);
 }
 
 h3 {
 	font-size: 2.5vh;
+	font-family: "Helvtica Neue", sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.2);
 }
 
 .page-container {
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-color: pink;
+	background: radial-gradient(#FFF0FB 0%, #ff909e 100%);
 }
 
 /*.triange {
@@ -56,6 +64,10 @@ h3 {
 	width: 80%;
 }
 
+.home-title {
+	height: 14vh;
+}
+
 .dollhouse {
 	display: flex;
 	flex-direction: column;
@@ -69,7 +81,7 @@ h3 {
 }
 
 .roof-image {
-	height: 34.5vh;
+	height: 30vh;
 }
 
 .label {
@@ -107,7 +119,7 @@ h3 {
 .icon {
 	width: 35px;
 	height: 35px;
-	margin: 12px 30px 0;
+	margin: 16px 30px 0;
 }
 
 .room:hover > .label {
@@ -115,11 +127,11 @@ h3 {
 }
 
 .room:hover > .image {
-	opacity: 0.55;
+	opacity: 0.45;
 }
 
 .image {
-	height: 20vh;
+	height: 17.5vh;
 }
 
 .roof:hover > .label {
@@ -128,5 +140,5 @@ h3 {
 }
 
 .roof:hover > .roof-image {
-	opacity: 0.55;
+	opacity: 0.45;
 }
