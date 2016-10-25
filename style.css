@@ -1,6 +1,6 @@
-/*body {
-	cursor: url(images/cursor.ico), pointer;
-}*/
+body {
+	cursor: url(images/cursor.ico) 64 0, pointer;
+}
 
 @font-face {
     font-family: 'Barbie';
