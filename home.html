@@ -9,45 +9,56 @@
 	<title>2nd Dollhouse</title>
 </head>
 <body>
+	<img src="images/caroline-title.png" class="home-title"/>
 	<div class="page-container">
-		<img src="images/caroline-title.png" class="home-title"/>
 		<div class="dollhouse">
-			<div class="roof">
-				<div class="label">				
-					<h2>ABOUT</h1>
+			<a href="" onmouseenter="playSound('audio/click.mp3')">
+				<div class="roof">
+					<div class="label">				
+						<h2>ABOUT</h2>
+					</div>
+					<img src="images/roof.png" class="roof-image"/>
 				</div>
-				<img src="images/roof.png" class="roof-image"/>
+			</a>
+			<div class="floor">
+				<a href="" onmouseenter="playSound('audio/click.mp3')">
+					<div class="room">
+						<div class="label">				
+							<h2>THE GLAM ROOM</h2>
+							<h3>Beauty tips, secrets, and tricks</h3>
+						</div>
+						<img src="images/stairs.png" class="image" id="stairs" />
+					</div>
+				</a>
+				<a href="" onmouseenter="playSound('audio/click.mp3')">
+					<div class="room">
+						<div class="label">				
+							<h2>MUSIC & VIDEOS</h2>
+							<h3>'One Hundred' and 'Look Atcha' out now!</h3>
+						</div>
+						<img src="images/green.png" class="image" id="green" />
+					</div>
+				</a>
 			</div>
 			<div class="floor">
-				<div class="room">
-					<div class="label">				
-						<h2>THE GLAM ROOM</h2>
-						<h3>Beauty tips, secrets, and tricks</h3>
+				<a href="#" onmouseenter="playSound('audio/click.mp3')">
+					<div class="room">
+						<div class="label">				
+							<h2>STORE</h2>
+							<h3>Beauty tips, secrets, and tricks</h3>
+						</div>
+						<img src="images/kitchen.png" class="image" id="kitchen" />
 					</div>
-					<img src="images/stairs.png" class="image" id="stairs" />
-				</div>
-				<div class="room">
-					<div class="label">				
-						<h2>MUSIC & VIDEOS</h2>
-						<h3>'One Hundred' and 'Look Atcha' out now!</h3>
+				</a>
+				<a href="#" onmouseenter="playSound('audio/click.mp3')">
+					<div class="room">
+						<div class="label">				
+							<h2>CONTACT</h2>
+							<h3>Beauty tips, secrets, and tricks</h3>
+						</div>
+						<img src="images/front.png" class="image" id="front" />
 					</div>
-					<img src="images/green.png" class="image" id="green" />
-				</div>
-			</div>
-			<div class="floor">
-				<div class="room">
-					<div class="label">				
-						<h2>STORE</h2>
-						<h3>Beauty tips, secrets, and tricks</h3>
-					</div>
-					<img src="images/kitchen.png" class="image" id="kitchen" />
-				</div>
-				<div class="room">
-					<div class="label">				
-						<h2>CONTACT</h2>
-						<h3>Beauty tips, secrets, and tricks</h3>
-					</div>
-					<img src="images/front.png" class="image" id="front" />
+				</a>
 			</div>
 			
 		</div>
@@ -58,5 +69,6 @@
 			<a href="https://twitter.com/CarolineBurt?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="images/twitter.png" class="icon" /></a>
 		</div>
 	</div>
+	<span id="click"></span>
 </body>
 </html>

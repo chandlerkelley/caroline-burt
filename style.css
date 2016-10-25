@@ -1,5 +1,6 @@
 * {
 	cursor: url(images/cursor.ico) 64 0, pointer;
+	font-family: "Helvetica Neue", sans-serif;
 }
 
 @font-face {
@@ -10,6 +11,11 @@
         url('fonts/barbie/Barbie-MediumItalic.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
 }
 
 img {
@@ -54,6 +60,7 @@ h3 {
 .index-container {
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	background: radial-gradient(#ff208e 0%, #bb004e 100%);
@@ -64,8 +71,21 @@ h3 {
 	width: 80%;
 }
 
+.enter {
+	display: block;
+	color: white;
+	border: 2px white solid;
+	border-radius: 6px;
+	font-weight: 200;
+	padding: 10px;
+	margin-top: 5vh;
+}
+
 .home-title {
-	height: 14vh;
+	height: 10vh;
+	position: absolute;
+	top: 5px;
+	left: 5px;
 }
 
 .dollhouse {
@@ -119,7 +139,7 @@ h3 {
 .icon {
 	width: 35px;
 	height: 35px;
-	margin: 16px 30px 0;
+	margin: 4vh 30px 0;
 }
 
 .room:hover > .label {
@@ -135,7 +155,7 @@ h3 {
 }
 
 .roof:hover > .label {
-	margin-top: 7vh;
+	margin-top: 6vh;
 	display: flex;
 }
 
