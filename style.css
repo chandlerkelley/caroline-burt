@@ -1,4 +1,4 @@
-body {
+* {
 	cursor: url(images/cursor.ico) 64 0, pointer;
 }
 
@@ -30,7 +30,29 @@ h3 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #000;
+	background-color: pink;
+}
+
+/*.triange {
+	position: absolute;
+	height: 0;
+	width: 0;
+	border-right: 100vh solid #000;
+	border-bottom: 50vh solid #000;
+	border-top: 50vh solid transparent;
+	border-left: 100vh solid transparent;
+}*/
+
+.index-container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: radial-gradient(#ff208e 0%, #bb004e 100%);
+}
+
+.caroline {
+	z-index: 2;
 }
 
 .dollhouse {
