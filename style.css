@@ -53,6 +53,7 @@ h3 {
 
 .caroline {
 	z-index: 2;
+	width: 80%;
 }
 
 .dollhouse {
@@ -95,6 +96,17 @@ h3 {
 	align-items: center;
 	justify-content: center;
 	position: relative;
+}
+
+.icon-container {
+	display: flex;
+	margin: 0 auto;
+}
+
+.icon {
+	width: 35px;
+	height: 35px;
+	margin: 12px 30px 0;
 }
 
 .room:hover > .label {
