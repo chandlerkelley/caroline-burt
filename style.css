@@ -142,7 +142,8 @@ nav a {
 }
 
 .home-title {
-	height: 10vh;
+	margin-top: 5px;
+	height: 8vh;
 	margin-left: 10px;
 	/*position: absolute;*/
 	/*top: 5px;*/
