@@ -23,8 +23,7 @@ img {
 	display: block;
 }
 
-h2 {
-	font-family: "Helvetica Neue", sans-serif;
+.label h2 {
 	color: black;
 	font-weight: 200;
 	font-size: 5.5VH;
@@ -32,10 +31,9 @@ h2 {
 	/*text-shadow: 2px 4px 3px rgba(0,0,0,0.5);*/
 }
 
-h3 {
+.label h3 {
 	color: black;
 	font-size: 2.5vh;
-	font-family: "Helvtica Neue", sans-serif;
 	font-weight: 400;
 	font-style: italic;
 	/*text-shadow: 2px 4px 3px rgba(0,0,0,0.2);*/
@@ -71,7 +69,12 @@ h3 {
 
 .caroline {
 	z-index: 2;
-	width: 80%;
+	width: 72%;
+}
+
+.index-container h1 {
+	font-size: 5vh;
+	font-weight: 200;
 }
 
 .enter {
@@ -149,7 +152,7 @@ nav a {
 .dollhouse {
 	display: flex;
 	flex-direction: column;
-	margin-top: 5vh;
+	/*margin-top: 5vh;*/
 }
 
 .roof {
