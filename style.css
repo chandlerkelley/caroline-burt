@@ -217,7 +217,7 @@ nav {
 
 .content-box h2 {
 	color: black;
-	font-weight: 200;
+	font-weight: 100;
 	font-size: 20px;
 	padding: 12px 0 12px 12px;
 	display: inline-block;
@@ -225,7 +225,7 @@ nav {
 
 .content-box h3 {
 	color: white;
-	font-weight: 200;
+	font-weight: 100;
 	font-size: 20px;
 	padding: 0 12px;
 	display: inline-block;
@@ -250,6 +250,7 @@ nav {
 	color: #fff;
 	margin-top: 15px;
 	font-size: 20px;
+	font-weight: 200;
 }
 
 .room:hover > .label {
