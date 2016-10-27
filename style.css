@@ -270,6 +270,21 @@ nav {
 	font-weight: 200;
 }
 
+.rad {
+	font-weight: 600;
+	font-size: 10vh;
+	color: white;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: #ff4f8a;
+   transition: .5s;
+}
+
+.rad:hover {
+	font-size: 11vh;
+	margin-bottom: -1vh;
+}
+
 .room:hover > .label {
 	display: flex;
 }

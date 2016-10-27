@@ -11,6 +11,12 @@ $(function() {
 			$(".home-title").attr("src", "images/caroline-title-blue.png")
 			break;
 		case "images/caroline-title-blue.png":
+			$(".home-title").attr("src", "images/caroline-title-green.png")
+			break;
+		case "images/caroline-title-green.png":
+			$(".home-title").attr("src", "images/caroline-title-gold.png")
+			break;
+		case "images/caroline-title-gold.png":
 			$(".home-title").attr("src", "images/caroline-title.png")
 			break;
 		default:
@@ -18,5 +24,5 @@ $(function() {
 		}
 	};
 	
-	// setInterval(changeTitle, 200);
+	setInterval(changeTitle, 160);
 })
