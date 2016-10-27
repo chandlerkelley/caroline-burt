@@ -18,5 +18,5 @@ $(function() {
 		}
 	};
 	
-	setInterval(changeTitle, 200);
+	// setInterval(changeTitle, 200);
 })
