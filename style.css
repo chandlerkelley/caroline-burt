@@ -6,7 +6,8 @@
 
 body {
 	min-height: 100vh;
-	background: radial-gradient(#FFE0EB 0%, #ff909e 100%);
+	background-color: #fec4d4;
+	/*background: radial-gradient(#FFE0EB 0%, #ff909e 100%);*/
 }
 
 a {
@@ -40,6 +41,7 @@ img {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	position: relative;
 	/*background: radial-gradient(#FFE0EB 0%, #ff909e 100%);*/
 }
 
@@ -213,34 +215,149 @@ nav {
 	width: 55%;
 }
 
-.content-box {
-	margin-top: 5vh;
+.about-box {
+	background-color: #ff4f8a;
+	padding: 4px;
+	border: 4px solid #fff;
+	max-width: 30%;
+}
+
+.about-box p {
+	margin: 2vh;
+	font-weight: 200;
+	text-align: justify;
+}
+
+.yellow-circle {
+	position: absolute;
+	left: 25%;
+	top: 60%;
+	width: 35vh;
+	height: 35vh;
+	border-radius: 50%;
+	background-color: #f6cfb4;
+	z-index: -2;
+}
+
+.cb2 {
+	position: absolute;
+	left: 10%;
+	top: 34%;
+	width: 27%;
+	z-index: -1;
+	-moz-animation-name: picOut;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 0.8s;
+    /*-moz-animation-delay: 1s;*/
+
+    -webkit-animation-name: picOut;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 0.8s;
+    /*-webkit-animation-delay: 1s;*/
+
+    animation-name: picOut;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.8s;
+    /*animation-delay: 1s;*/
+}
+
+@-moz-keyframes picOut {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+    100% {
+        -moz-transform: translateX(0);
+    }
+}
+@-webkit-keyframes picOut {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+    }
+}
+@keyframes picOut {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.cb3 {
+	position: absolute;
+	left: 64%;
+	top: 28%;
+	width: 32%;
+	z-index: -1;
+	-moz-animation-name: picUp;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 0.8s;
+
+    -webkit-animation-name: picUp;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 0.8s;
+
+    animation-name: picUp;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.8s;
+}
+
+@-moz-keyframes picUp {
+    0% {
+        -moz-transform: translateY(-200%);
+    }
+    100% {
+        -moz-transform: translateY(0);
+    }
+}
+@-webkit-keyframes picUp {
+    0% {
+        -webkit-transform: translateY(-200%);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+@keyframes picUp {
+    0% {
+        transform: translateY(-200%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.contact-box {
+	margin-top: 20vh;
 	background-color: #ff4f8a;
 	padding: 4px;
 	border: 4px solid #fff;
 	max-width: 50%;
 }
 
-.content-box h2 {
+.contact-box h2 {
 	color: black;
 	font-weight: 100;
-	font-size: 20px;
+	font-size: 5vh;
 	padding: 12px 0 12px 12px;
 	display: inline-block;
 }
 
-.content-box h3 {
+.contact-box h3 {
 	color: white;
 	font-weight: 100;
-	font-size: 20px;
-	padding: 0 12px;
+	font-size: 5vh;
+	padding: 0 2vh;
 	display: inline-block;
-}
-
-.content-box p {
-	margin: 5px;
-	font-weight: 200;
-	text-align: justify;
 }
 
 .vid-wrapper {
@@ -265,10 +382,60 @@ nav {
 	font-weight: 200;
 }
 
-.contact-header {
-	font-size: 40px;
+.about-header {
+	font-size: 4vh;
 	font-weight: 200;
+	margin-top: 10vh;
+	margin-bottom: 3vh;
 }
+
+.cb1 {
+	position: absolute;
+	width: 30%;
+	left: 12%;
+	top: 12%;
+	z-index: -1;
+    -moz-animation-name: picIn;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 0.8s;
+
+    -webkit-animation-name: picIn;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 0.8s;
+
+    animation-name: picIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.8s;
+}
+
+@-moz-keyframes picIn {
+    0% {
+        -moz-transform: translateX(-200%);
+    }
+    100% {
+        -moz-transform: translateX(0);
+    }
+}
+@-webkit-keyframes picIn {
+    0% {
+        -webkit-transform: translateX(-200%);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+    }
+}
+@keyframes picIn {
+    0% {
+        transform: translateX(-200%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
 
 .rad {
 	font-weight: 600;
