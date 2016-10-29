@@ -260,33 +260,51 @@ nav {
     animation-name: picOut;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
-    animation-duration: 0.8s;
+    animation-duration: 1.2s;
     /*animation-delay: 1s;*/
 }
 
 @-moz-keyframes picOut {
     0% {
-        -moz-transform: translateX(100%);
+        transform: translateX(100%);
     }
-    100% {
-        -moz-transform: translateX(0);
-    }
+    60% {
+      transform: translateX(-6%);
+   	}
+   	80% {
+      transform: translateX(2%);
+   	}
+   	100% {
+      transform: translateX(0);
+   	}
 }
 @-webkit-keyframes picOut {
     0% {
-        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
     }
-    100% {
-        -webkit-transform: translateX(0);
-    }
+    60% {
+      transform: translateX(-6%);
+   	}
+   	80% {
+      transform: translateX(2%);
+   	}
+   	100% {
+      transform: translateX(0);
+   	}
 }
 @keyframes picOut {
     0% {
         transform: translateX(100%);
     }
-    100% {
-        transform: translateX(0);
-    }
+    60% {
+      transform: translateX(-6%);
+   	}
+   	80% {
+      transform: translateX(2%);
+   	}
+   	100% {
+      transform: translateX(0);
+   	}
 }
 
 .cb3 {
@@ -308,36 +326,53 @@ nav {
     animation-name: picUp;
     animation-iteration-count: 1;
     animation-timing-function: ease-out;
-    animation-duration: 0.8s;
+    animation-duration: 1.2s;
 }
 
 @-moz-keyframes picUp {
     0% {
-        -moz-transform: translateY(-200%);
+        transform: translateY(-200%);
     }
-    100% {
-        -moz-transform: translateY(0);
-    }
+    60% {
+      transform: translateY(6%);
+   	}
+   	80% {
+      transform: translateY(-2%);
+   	}
+   	100% {
+      transform: translateY(0);
+   	}
 }
 @-webkit-keyframes picUp {
     0% {
-        -webkit-transform: translateY(-200%);
+        transform: translateY(-200%);
     }
-    100% {
-        -webkit-transform: translateY(0);
-    }
+    60% {
+      transform: translateY(6%);
+   	}
+   	80% {
+      transform: translateY(-2%);
+   	}
+   	100% {
+      transform: translateY(0);
+   	}
 }
 @keyframes picUp {
     0% {
         transform: translateY(-200%);
     }
-    100% {
-        transform: translateY(0);
-    }
+    60% {
+      transform: translateY(6%);
+   	}
+   	80% {
+      transform: translateY(-2%);
+   	}
+   	100% {
+      transform: translateY(0);
+   	}
 }
 
 .contact-box {
-	margin-top: 20vh;
 	background-color: #ff4f8a;
 	padding: 4px;
 	border: 4px solid #fff;
@@ -389,6 +424,13 @@ nav {
 	margin-bottom: 3vh;
 }
 
+.contact-header {
+	font-size: 4vh;
+	font-weight: 200;
+	margin-top: 20vh;
+	margin-bottom: 3vh;
+}
+
 .cb1 {
 	position: absolute;
 	width: 30%;
@@ -398,7 +440,7 @@ nav {
     -moz-animation-name: picIn;
     -moz-animation-iteration-count: 1;
     -moz-animation-timing-function: ease-out;
-    -moz-animation-duration: 0.8s;
+    -moz-animation-duration: 1.2s;
 
     -webkit-animation-name: picIn;
     -webkit-animation-iteration-count: 1;
@@ -413,27 +455,45 @@ nav {
 
 @-moz-keyframes picIn {
     0% {
-        -moz-transform: translateX(-200%);
+        transform: translateX(-200%);
     }
-    100% {
-        -moz-transform: translateX(0);
-    }
+    60% {
+      transform: translateX(6%);
+   	}
+   	80% {
+      transform: translateX(-2%);
+   	}
+   	100% {
+      transform: translateX(0);
+   	}
 }
 @-webkit-keyframes picIn {
     0% {
-        -webkit-transform: translateX(-200%);
+        transform: translateX(-200%);
     }
-    100% {
-        -webkit-transform: translateX(0);
-    }
+    60% {
+      transform: translateX(6%);
+   	}
+   	80% {
+      transform: translateX(-2%);
+   	}
+   	100% {
+      transform: translateX(0);
+   	}
 }
 @keyframes picIn {
     0% {
         transform: translateX(-200%);
     }
-    100% {
-        transform: translateX(0);
-    }
+    60% {
+      transform: translateX(6%);
+   	}
+   	80% {
+      transform: translateX(-2%);
+   	}
+   	100% {
+      transform: translateX(0);
+   	}
 }
 
 
