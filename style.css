@@ -532,3 +532,35 @@ nav {
 .roof:hover > .roof-image {
 	opacity: 0.45;
 }
+
+.turn-phone {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #fec4d4;
+	z-index: 100;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.turn-phone h1 {
+	font-size: 6vh;
+	text-align: center;
+}
+
+.turn-phone img {
+	height: 40%;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) {
+  	.turn-phone {
+  		display: flex;
+  	}
+}
