@@ -422,6 +422,14 @@ nav {
 	border-bottom: 1px solid white;
 }
 
+.contact-box ul {
+	margin: 0 4vh;
+}
+
+.contact-box li h3 {
+	margin: 0;
+}
+
 .vid-wrapper {
 	position: relative;
 	padding-bottom: 56.25%;
