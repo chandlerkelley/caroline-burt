@@ -329,6 +329,28 @@ nav {
     animation-duration: 1.2s;
 }
 
+.cb3-press {
+	position: absolute;
+	left: 54%;
+	top: 20%;
+	width: 32%;
+	z-index: -1;
+	-moz-animation-name: picUp;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-timing-function: ease-out;
+    -moz-animation-duration: 0.8s;
+
+    -webkit-animation-name: picUp;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-out;
+    -webkit-animation-duration: 0.8s;
+
+    animation-name: picUp;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 1.2s;
+}
+
 @-moz-keyframes picUp {
     0% {
         transform: translateY(-200%);
@@ -383,7 +405,7 @@ nav {
 	color: black;
 	font-weight: 100;
 	font-size: 5vh;
-	padding: 12px 0 12px 12px;
+	margin: 12px 0 12px 12px;
 	display: inline-block;
 }
 
@@ -391,8 +413,13 @@ nav {
 	color: white;
 	font-weight: 100;
 	font-size: 5vh;
-	padding: 0 2vh;
+	margin: 0 2vh;
 	display: inline-block;
+	border-bottom: 1px solid transparent;
+}
+
+.contact-box h3:hover {
+	border-bottom: 1px solid white;
 }
 
 .vid-wrapper {
@@ -428,6 +455,13 @@ nav {
 	font-size: 4vh;
 	font-weight: 200;
 	margin-top: 20vh;
+	margin-bottom: 3vh;
+}
+
+.press-header {
+	font-size: 4vh;
+	font-weight: 200;
+	margin-top: 10vh;
 	margin-bottom: 3vh;
 }
 
